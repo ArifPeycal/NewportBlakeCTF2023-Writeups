@@ -7,7 +7,7 @@ Info from the source code:
 * Crystals have 3 columns and Flag has one column.
 
 From this info, we can assume that the question wants us to do some "Union SQLi" to get the flag from ```flag``` table. 
-```
+```javascript
 db.serialize(() => {
   db.run("CREATE TABLE crystals (name TEXT, price REAL, quantity INTEGER)");
 
@@ -24,7 +24,7 @@ db.serialize(() => {
 ```
 
 This lines of codes proves that there is vulnerability to do some UNION SQL ATTACK. There is no validation on the name variable query.
-```
+```javascript
 app.get("/crystals", (req, res) => {
   const { name } = req.query;
 
