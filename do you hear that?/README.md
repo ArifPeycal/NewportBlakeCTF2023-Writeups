@@ -6,7 +6,6 @@ Challenge description is giving the hint that there is an audio file inside the 
 
 ```
 zsteg -e extradata:0 help.png > sound.wav
-
 ```
 
 You can use spectogram analysis application such as Audacity to see the message.
