@@ -7,8 +7,15 @@ Challenge description is giving the hint that there is an audio file inside the 
 ```
 zsteg -e extradata:0 help.png > sound.wav
 ```
-
+<p align="center">
+  <img width="80%" height="300" src="images/help.PNG">
+</p>
 You can use spectogram analysis application such as Audacity to see the message.
+<br><br>
+
+<p align="center">
+  <img width="80%" height="300" src="images/help1.PNG">
+</p>
 
 ## Flag 
 The flag for this challenge is ```nbctf{y0u_h4v3_s0m3_g00d_34rs}```
